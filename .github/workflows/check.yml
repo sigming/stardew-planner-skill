@@ -1,0 +1,47 @@
+name: Skill checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.0.1
+        with:
+          version: "0.10.10"
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: |
+            scripts/**/*.py
+            skills/**/*.py
+            tests/*.py
+            skills/*/SKILL.md
+      - name: Lint Python
+        run: uv run --python 3.12 --with ruff==0.16.6 ruff check scripts skills tests
+      - name: Check Python formatting
+        run: uv run --python 3.12 --with ruff==0.16.6 ruff format --check scripts skills tests
+      - name: Run all tests
+        run: uv run --python 3.12 --with pillow==12.3.0 --with pyyaml==6.0.2 python -m unittest discover -s tests
+      - name: Check installable skill and assets
+        run: uv run --python 3.12 scripts/check_install.py
+      - name: Check release version
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: uv run --python 3.12 scripts/check_install.py --tag "$RELEASE_TAG"
+      - name: Check portable skill package
+        run: |
+          uv run --python 3.12 scripts/package_skill.py --out dist/stardew-planner-skill.zip
+          uv run --python 3.12 python -m zipfile -e dist/stardew-planner-skill.zip "$RUNNER_TEMP/stardew-skill-check"
+          uv run --python 3.12 scripts/check_install.py --root "$RUNNER_TEMP/stardew-skill-check/stardew-planner-skill"
+          cd "$RUNNER_TEMP"
+          uv run --python 3.12 stardew-skill-check/stardew-planner-skill/scripts/layout.py maps

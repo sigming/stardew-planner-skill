@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve downloaded TMX bytes and recognize their CRLF line endings.
+/skills/stardew-planner-skill/data/maps/sources/tmx/*.tmx -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.png binary
+*.zip binary
+/.github export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore

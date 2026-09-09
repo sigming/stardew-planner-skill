@@ -1,0 +1,314 @@
+{
+  "regular": {
+    "map_file": "Farm.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm.tmx",
+      "retrieved_at": "2026-09-08T11:07:30.256565+00:00",
+      "sha256": "7f6e81139ea460ae7d86f5757619d34f326fd5b28d02dbd5c468de9769c454a0",
+      "bytes": 160218,
+      "content_type": "application/xml"
+    }
+  },
+  "fishing": {
+    "map_file": "Farm_Fishing.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Fishing.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Fishing.tmx",
+      "retrieved_at": "2026-09-08T11:07:32.148738+00:00",
+      "sha256": "e7ce0c687ed8487ea184eaa131bc1a4f49267f464671528375f540760ae5561d",
+      "bytes": 174155,
+      "content_type": "application/xml"
+    }
+  },
+  "foraging": {
+    "map_file": "Farm_Foraging.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Foraging.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Foraging.tmx",
+      "retrieved_at": "2026-09-08T11:07:32.597134+00:00",
+      "sha256": "ca5ea1164d210554dada17d6648be2a6e608ab6409d6f5c3f8270203f458acd6",
+      "bytes": 158535,
+      "content_type": "application/xml"
+    }
+  },
+  "mining": {
+    "map_file": "Farm_Mining.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Mining.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Mining.tmx",
+      "retrieved_at": "2026-09-08T11:07:33.488423+00:00",
+      "sha256": "37b19ec77ade6b1149c9463be48395822e3573005fdfdedd5f059385e6a9681e",
+      "bytes": 185083,
+      "content_type": "application/xml"
+    }
+  },
+  "combat": {
+    "map_file": "Farm_Combat.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Combat.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Combat.tmx",
+      "retrieved_at": "2026-09-08T11:07:31.865039+00:00",
+      "sha256": "cecdd0c0fab18ec43fad873dc904193a66beb921fcb3a716cf07aaae4acd5723",
+      "bytes": 156751,
+      "content_type": "application/xml"
+    }
+  },
+  "fourcorners": {
+    "map_file": "Farm_FourCorners.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_FourCorners.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_FourCorners.tmx",
+      "retrieved_at": "2026-09-08T11:07:32.863457+00:00",
+      "sha256": "0696b135d07fd89be3305a7b9ecfe4e7214ea3de7d715078016489b6b801d57c",
+      "bytes": 184846,
+      "content_type": "application/xml"
+    }
+  },
+  "beach": {
+    "map_file": "Farm_Island.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Island.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Island.tmx",
+      "retrieved_at": "2026-09-08T11:07:33.191452+00:00",
+      "sha256": "b59ff6fdbda4619052324c88df452e616ee758c05dd5d0a8fad2ff84b9d15db1",
+      "bytes": 408519,
+      "content_type": "application/xml"
+    }
+  },
+  "ranching": {
+    "map_file": "Farm_Ranching.tmx",
+    "category": "farm",
+    "source": {
+      "path": "tmx/Farm_Ranching.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Farm_Ranching.tmx",
+      "retrieved_at": "2026-09-08T11:07:33.780627+00:00",
+      "sha256": "9ded9ede30c696edd8178d8fd063536959a0a80581808c59aa8f4b2b20fc1335",
+      "bytes": 282174,
+      "content_type": "application/xml"
+    }
+  },
+  "farmhouse": {
+    "map_file": "FarmHouse.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/FarmHouse.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/FarmHouse.tmx",
+      "retrieved_at": "2026-09-08T11:07:30.610155+00:00",
+      "sha256": "d3f1dc77d8da8ce1a962392c75679a46c0e667ef9c0aa06f16eaf5e241d29cf3",
+      "bytes": 24650,
+      "content_type": "application/xml"
+    }
+  },
+  "farmhouse_upgraded_1": {
+    "map_file": "FarmHouse1.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/FarmHouse1.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/FarmHouse1.tmx",
+      "retrieved_at": "2026-09-08T11:07:30.830901+00:00",
+      "sha256": "17642585c95b1349eae98c4f2df2b3e66e6ad14c9eccf6f2570281909cd56a87",
+      "bytes": 66347,
+      "content_type": "application/xml"
+    }
+  },
+  "farmhouse_upgraded_2": {
+    "map_file": "FarmHouse2.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/FarmHouse2.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/FarmHouse2.tmx",
+      "retrieved_at": "2026-09-08T11:07:31.076499+00:00",
+      "sha256": "84ff430b424edc62eec8b1ebbfb96b2abe8a819f16045a4aa0bb0cb72be026c0",
+      "bytes": 154314,
+      "content_type": "application/xml"
+    }
+  },
+  "farmhouse_upgraded_3": {
+    "map_file": "FarmHouse2.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/FarmHouse2.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/FarmHouse2.tmx",
+      "retrieved_at": "2026-09-08T11:07:31.076499+00:00",
+      "sha256": "84ff430b424edc62eec8b1ebbfb96b2abe8a819f16045a4aa0bb0cb72be026c0",
+      "bytes": 154314,
+      "content_type": "application/xml"
+    }
+  },
+  "farmhouse_cellar": {
+    "map_file": "Cellar.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/Cellar.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Cellar.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.449379+00:00",
+      "sha256": "bdb237251d84107451c59f08ec69c78dbca6499d63477a431107a1888f624c86",
+      "bytes": 8479,
+      "content_type": "application/xml"
+    }
+  },
+  "shed": {
+    "map_file": "Shed.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/Shed.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Shed.tmx",
+      "retrieved_at": "2026-09-08T11:07:37.459202+00:00",
+      "sha256": "60aaf39512ac7555033c2e88e30985e7eeca570ccfd74c7166330474b71bf71f",
+      "bytes": 31608,
+      "content_type": "application/xml"
+    }
+  },
+  "shed-big": {
+    "map_file": "Shed2.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/Shed2.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Shed2.tmx",
+      "retrieved_at": "2026-09-08T11:07:37.678991+00:00",
+      "sha256": "4fa8649629edd4908825832bcc10ca66b26cdaff93ce24a334af43b3614cc83b",
+      "bytes": 58929,
+      "content_type": "application/xml"
+    }
+  },
+  "barn": {
+    "map_file": "Barn.tmx",
+    "category": "barn",
+    "source": {
+      "path": "tmx/Barn.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Barn.tmx",
+      "retrieved_at": "2026-09-08T11:07:28.926518+00:00",
+      "sha256": "8e817682d284388a2cb5bf33602977a5c8f9b6f157d3bb21071fdb4fc76ee10c",
+      "bytes": 5513,
+      "content_type": "application/xml"
+    }
+  },
+  "barn-big": {
+    "map_file": "Barn2.tmx",
+    "category": "barn",
+    "source": {
+      "path": "tmx/Barn2.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Barn2.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.106564+00:00",
+      "sha256": "b7192b0cdf6b60ffbd05db96841fed1b1e12893d2bd0e1da1ebdb5dff645e63e",
+      "bytes": 5997,
+      "content_type": "application/xml"
+    }
+  },
+  "barn-deluxe": {
+    "map_file": "Barn3.tmx",
+    "category": "barn",
+    "source": {
+      "path": "tmx/Barn3.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Barn3.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.280811+00:00",
+      "sha256": "11cd99f03797c24b0ac6142970198fba3aaf6b8ec11dbcad45c2984d437ab66d",
+      "bytes": 6477,
+      "content_type": "application/xml"
+    }
+  },
+  "coop": {
+    "map_file": "Coop.tmx",
+    "category": "coop",
+    "source": {
+      "path": "tmx/Coop.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Coop.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.620652+00:00",
+      "sha256": "1332ca4d7a0c96444d58fb1651ec94b48d941c1e5f9679305ef6a60ca1a242c8",
+      "bytes": 3191,
+      "content_type": "application/xml"
+    }
+  },
+  "coop-big": {
+    "map_file": "Coop2.tmx",
+    "category": "coop",
+    "source": {
+      "path": "tmx/Coop2.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Coop2.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.797675+00:00",
+      "sha256": "82b7a0a34114dbfc23ac26da3f00e296f0e32469192fb168dc718d7edc6a8cfa",
+      "bytes": 3415,
+      "content_type": "application/xml"
+    }
+  },
+  "coop-deluxe": {
+    "map_file": "Coop3.tmx",
+    "category": "coop",
+    "source": {
+      "path": "tmx/Coop3.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Coop3.tmx",
+      "retrieved_at": "2026-09-08T11:07:29.976698+00:00",
+      "sha256": "85972c5bfbb05233e42d493de572950bb827ada93c8fd494c09784944f29b01e",
+      "bytes": 5068,
+      "content_type": "application/xml"
+    }
+  },
+  "slime-hutch": {
+    "map_file": "SlimeHutch.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/SlimeHutch.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/SlimeHutch.tmx",
+      "retrieved_at": "2026-09-08T11:07:37.888393+00:00",
+      "sha256": "3c8def8f23407aaa0b1a406c3917d3b640f3876416805ef06b04c9a118be7f3f",
+      "bytes": 37115,
+      "content_type": "application/xml"
+    }
+  },
+  "greenhouse": {
+    "map_file": "Greenhouse.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/Greenhouse.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Greenhouse.tmx",
+      "retrieved_at": "2026-09-08T11:07:33.988963+00:00",
+      "sha256": "34c9c99d04c702d5e4c2e350532b829b1c2f535340541804de54af3e4689c5b2",
+      "bytes": 9386,
+      "content_type": "application/xml"
+    }
+  },
+  "farm-cave": {
+    "map_file": "FarmCave.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/FarmCave.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/FarmCave.tmx",
+      "retrieved_at": "2026-09-08T11:07:30.436592+00:00",
+      "sha256": "f4d82c3da652f66e5f0cbb54aff86c5911f088d4896027e34d42fe1c4cc04e57",
+      "bytes": 3659,
+      "content_type": "application/xml"
+    }
+  },
+  "island-farmhouse": {
+    "map_file": "IslandFarmHouse.tmx",
+    "category": "interior",
+    "source": {
+      "path": "tmx/IslandFarmHouse.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/IslandFarmHouse.tmx",
+      "retrieved_at": "2026-09-08T11:07:34.208037+00:00",
+      "sha256": "c9e748c6817f9a554eb452e21b0363c85c3e73e212c68d00e499cd366824c916",
+      "bytes": 85825,
+      "content_type": "application/xml"
+    }
+  },
+  "ginger_island": {
+    "map_file": "Island_W.tmx",
+    "category": "island",
+    "source": {
+      "path": "tmx/Island_W.tmx",
+      "url": "https://assets.stardewplan.com/assets/1.6.15/maps/Island_W.tmx",
+      "retrieved_at": "2026-09-08T11:07:36.518515+00:00",
+      "sha256": "019d63f4b4e9f0514d7f43985768e39015d8049c75645448a3f721eb245295ed",
+      "bytes": 269482,
+      "content_type": "application/xml"
+    }
+  }
+}

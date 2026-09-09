@@ -1,0 +1,699 @@
+{
+  "schema_version": 1,
+  "title": "原版农场完整交付示例",
+  "modules": [
+    {
+      "id": "crop-a",
+      "preferred_offset": [
+        -15,
+        -6
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "quality-sprinkler",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "parsnip-seeds",
+          "x": 0,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crop-b",
+      "preferred_offset": [
+        -11,
+        -6
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "quality-sprinkler",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crop-c",
+      "preferred_offset": [
+        -15,
+        -2
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "quality-sprinkler",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crop-d",
+      "preferred_offset": [
+        -11,
+        -2
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "quality-sprinkler",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 0,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 1,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 0,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 1,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        },
+        {
+          "type": "crop",
+          "x": 2,
+          "y": 2,
+          "tags": [
+            "crops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scarecrow",
+      "preferred_offset": [
+        -12,
+        -3
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "scarecrow",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "coop-yard",
+      "preferred_offset": [
+        3,
+        -6
+      ],
+      "clearance": 1,
+      "objects": [
+        {
+          "type": "coop",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 2,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 3,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 4,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 6,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 7,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 8,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 0
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 1
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 2
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 2
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 3
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 3
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 4
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 4
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 5
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 5
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 6
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 6
+        },
+        {
+          "type": "wood-fence",
+          "x": 0,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 1,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 2,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 3,
+          "y": 7
+        },
+        {
+          "type": "wood-gate",
+          "x": 4,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 5,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 6,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 8,
+          "y": 7
+        },
+        {
+          "type": "wood-fence",
+          "x": 9,
+          "y": 7
+        },
+        {
+          "type": "cobblestone",
+          "x": 0,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 1,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 2,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 3,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 4,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 5,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 6,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 7,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "type": "cobblestone",
+          "x": 9,
+          "y": 8
+        },
+        {
+          "type": "chest",
+          "x": 0,
+          "y": 8
+        }
+      ]
+    },
+    {
+      "id": "trees",
+      "preferred_offset": [
+        4,
+        5
+      ],
+      "clearance": 1,
+      "objects": [
+        {
+          "type": "oak-tree",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "oak-tree",
+          "x": 4,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "bee-garden",
+      "preferred_offset": [
+        14,
+        4
+      ],
+      "clearance": 1,
+      "objects": [
+        {
+          "type": "bee-house",
+          "x": 0,
+          "y": 1
+        },
+        {
+          "type": "scarecrow",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "type": "quality-sprinkler",
+          "x": 3,
+          "y": 1
+        },
+        {
+          "type": "tulip",
+          "x": 2,
+          "y": 0,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 3,
+          "y": 0,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 4,
+          "y": 0,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 2,
+          "y": 1,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 4,
+          "y": 1,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 2,
+          "y": 2,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 3,
+          "y": 2,
+          "tags": [
+            "flowers"
+          ]
+        },
+        {
+          "type": "tulip",
+          "x": 4,
+          "y": 2,
+          "tags": [
+            "flowers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "junimo",
+      "preferred_offset": [
+        -10,
+        1
+      ],
+      "clearance": 0,
+      "objects": [
+        {
+          "type": "junimo-hut",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "coverage_targets": {
+    "bee": {
+      "target_tag": "flowers"
+    },
+    "junimo": {
+      "target_tag": "crops"
+    }
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "names_zh": {
+    "ccfishtank": {
+      "value": "社区中心鱼缸",
+      "status": "local_translation_unverified",
+      "basis": "English identifier CCFishTank and visual inspection of the aquarium sprite"
+    },
+    "j": {
+      "value": "字母 J",
+      "status": "local_translation_unverified",
+      "basis": "English name J and visual inspection of the letter-shaped sprite"
+    },
+    "item-pedestal": {
+      "value": "物品展示台",
+      "status": "local_translation_unverified",
+      "basis": "Translation of the website name Item Pedestal"
+    },
+    "brush": {
+      "value": "画笔",
+      "status": "local_translation",
+      "basis": "Planner tool name Brush"
+    },
+    "placeholder": {
+      "value": "占位符",
+      "status": "local_translation",
+      "basis": "Planner tool name Placeholder"
+    },
+    "rarecrow": {
+      "value": "珍奇稻草人（南瓜）",
+      "status": "local_translation",
+      "basis": "Planner rarecrow sprite depicts rarecrow style 8; replace the ambiguous machine translation."
+    }
+  },
+  "variants": {
+    "apple-tree-summer": {
+      "kind": "season",
+      "base_id": "apple-tree",
+      "value": "summer",
+      "basis": "The source ID, English name and atlas frame identify the apple summer sprite; upstream seasonSprite incorrectly names pomegranate-tree/winter."
+    }
+  },
+  "appearance_notes": {
+    "banana-tree-winter": {
+      "status": "unverified",
+      "message_zh": "本地香蕉树冬季贴图呈小型芽状图形，与其他季节的成熟树外观差异较大。原因未查明，请确认目标外观。",
+      "message_en": "The bundled winter banana sprite depicts a small shoot. Its intended appearance is unverified; ask the user to confirm.",
+      "image_sha256": "3534f768ea26f4d23919974b9602c586eb31d7854d3998022585aeb65fd76ca6"
+    }
+  },
+  "crop_placeholders": {
+    "regular": "strawberry-seeds",
+    "giant": "giant-pumpkin",
+    "basis": "User-requested visual simplification; ordinary crop and seed tiles use strawberries, giant crops use pumpkins while retaining footprint dimensions."
+  },
+  "placement_conventions": {
+    "mature_trees": {
+      "ids": [
+        "maple-tree",
+        "oak-tree",
+        "pine-tree",
+        "mahogany-tree",
+        "palm-tree",
+        "palm-tree-island",
+        "mushroom-tree",
+        "mystic-tree",
+        "green-tree-1",
+        "green-tree-2",
+        "green-tree-3",
+        "apricot-tree",
+        "cherry-tree",
+        "banana-tree",
+        "mango-tree",
+        "orange-tree",
+        "peach-tree",
+        "apple-tree",
+        "pomegranate-tree"
+      ],
+      "footprint_tiles": [
+        1,
+        1
+      ],
+      "anchor_offset_tiles": [
+        1,
+        0
+      ],
+      "note_zh": "成熟树木按树干1×1格规划；树冠可以与其他元素重叠，可种在建筑物（包括温室）旁的可用格子。果树生长期需要周围八格空置，成熟布局不预留3×3生长空间；忽略雷击外观。",
+      "basis": "User-requested mature-tree layout convention; canopy and growth clearance do not define the occupied trunk tile."
+    },
+    "slime_hutch": {
+      "ids": [
+        "slime-hutch"
+      ],
+      "footprint_tiles": [
+        7,
+        4
+      ],
+      "anchor_offset_tiles": [
+        0,
+        0
+      ],
+      "since_game_version": "1.6",
+      "legacy_footprint_tiles": [
+        11,
+        6
+      ],
+      "note_zh": "史莱姆小屋在1.6版本由11×6缩小至7×4，规划统一使用7×4。参考图若为11×6，在交付时说明差异，由用户选择如何处理剩余空间。",
+      "basis": "User-specified Stardew Valley 1.6 footprint convention."
+    },
+    "greenhouse": {
+      "ids": [
+        "greenhouse",
+        "greenhouse-repaired"
+      ],
+      "footprint_tiles": [
+        7,
+        6
+      ],
+      "anchor_offset_tiles": [
+        0,
+        0
+      ],
+      "building_placement": {
+        "additional_placement_tiles": [],
+        "front_decoration": {
+          "tile_area": [
+            2,
+            6,
+            3,
+            2
+          ],
+          "image": "data/planner/images/greenhouse-front-decoration.png",
+          "sha256": "04e575414fc7081268918f69ed92788109e4d571e601f1559c252ccaf93322a7",
+          "recognition_action": "part_of_building",
+          "count_as_flooring": false,
+          "can_be_covered_by_flooring": true,
+          "can_be_occupied_by_objects": true,
+          "source_url": "https://assets.stardewplan.com/assets/1.6.15/tilesheets/spring_outdoorsTileSheet.png",
+          "source_sha256": "67a3efbb31e4bde04ed29c789f34994292e9b4e1dbe01c57ad27d3693d305e92",
+          "source_layers": [
+            {
+              "source_rect_px": [
+                192,
+                512,
+                208,
+                528
+              ],
+              "offset_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "source_rect_px": [
+                192,
+                512,
+                208,
+                528
+              ],
+              "offset_px": [
+                16,
+                0
+              ]
+            },
+            {
+              "source_rect_px": [
+                192,
+                512,
+                208,
+                528
+              ],
+              "offset_px": [
+                32,
+                0
+              ]
+            },
+            {
+              "source_rect_px": [
+                208,
+                528,
+                224,
+                544
+              ],
+              "offset_px": [
+                0,
+                16
+              ]
+            },
+            {
+              "source_rect_px": [
+                208,
+                528,
+                224,
+                544
+              ],
+              "offset_px": [
+                16,
+                16
+              ]
+            },
+            {
+              "source_rect_px": [
+                208,
+                528,
+                224,
+                544
+              ],
+              "offset_px": [
+                32,
+                16
+              ]
+            }
+          ],
+          "rendering_source": {
+            "url": "https://stardewplan.com/_app/immutable/chunks/Bna96aps.js",
+            "sha256": "1734f0e00b2ba34fb5398716386bcda096c828222a3dc1cc5aeefb00a7bed6bb",
+            "basis": "GreenhouseEntrance_top/bottom draw layers; corresponding tiles are hidden when a path is present."
+          },
+          "note_zh": "温室前方3×2为自带砖块效果，不计作独立地板或占地；可被地板覆盖，也可放置小桶等物体。"
+        },
+        "semantics": "The layout reserves only 7 x 6. The front 3 x 2 brick decoration does not reserve clearance and may be covered or occupied. Original construction data remains in source-index.json."
+      },
+      "note_zh": "规划只使用温室7×6占地；前方3×2自带砖块可被铺装覆盖或摆放物品，不作为额外留空区，不识别为独立地板。",
+      "basis": "User-requested 7 x 6 layout convention; native entrance art and path replacement verified in stardewplan rendering code."
+    }
+  },
+  "appearance_simplifications": {
+    "fish-pond": {
+      "default_sprite_id": "fish-pond",
+      "ignored_details": [
+        "orientation",
+        "water_color",
+        "netting_and_decoration_layout"
+      ],
+      "card_label_zh": "水色、网兜朝向可变；规划用默认外观",
+      "card_label_en": "Water / net layout may vary; use default",
+      "note_zh": "鱼塘可切换网兜等装饰细节的方向或样式，饲养不同鱼类时池水颜色也可能不同。统一识别为鱼塘，规划使用5×5的默认外观；忽略这些差异，无需创建其他变体或待确认问题。",
+      "note_en": "Fish ponds can vary in net and decoration orientation and in water color depending on the fish. Recognize them as the same fish pond and use the default 5 x 5 appearance without variant-specific review issues."
+    }
+  },
+  "recognition_guides": {
+    "mushroom-log": {
+      "similar_item_ids": [
+        "log-section"
+      ],
+      "note_zh": "蘑菇树桩底部有明显的绿色覆盖物，与圆木段容易混淆。蘑菇树桩还可呈长出蘑菇的待收获外观，两种状态占位均为1×1。"
+    },
+    "log-section": {
+      "similar_item_ids": [
+        "mushroom-log"
+      ],
+      "note_zh": "圆木段为木制装饰物，外观有浅色圆形截面；请与底部带绿色覆盖物的蘑菇树桩比较，勿互相替代。"
+    },
+    "lawn-flamingo": {
+      "similar_item_ids": [
+        "animal-ostrich"
+      ],
+      "show_placement_actions": true,
+      "note_zh": "草坪火烈鸟是家具摆件，应保留；鸵鸟是动物，应忽略。",
+      "verified_image_reference": {
+        "url": "https://stardewvalleywiki.com/mediawiki/images/c/c1/Lawn_Flamingo.png",
+        "source_sha256": "ec42e39d97a518014c3db99f8f620a1802ca60e243552e9c4ac5448e9ceef8f3",
+        "source_scale": 3,
+        "visible_pixels_match_catalog": true
+      }
+    },
+    "animal-ostrich": {
+      "similar_item_ids": [
+        "lawn-flamingo"
+      ],
+      "show_placement_actions": true,
+      "note_zh": "草坪火烈鸟是家具摆件，应保留；鸵鸟是动物，应忽略。"
+    },
+    "plush-bunny": {
+      "similar_item_ids": [
+        "animal-rabbit"
+      ],
+      "show_placement_actions": true,
+      "note_zh": "绒毛兔子是家具玩偶，应保留；兔子是动物，应忽略。",
+      "verified_image_reference": {
+        "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Plush_Bunny.png",
+        "source_sha256": "fed50a3d7bd2d0a1793e6411f25f5bf8bd1d9d1e161877747067c3d172f0a585",
+        "source_scale": 3,
+        "visible_pixels_match_catalog": true
+      }
+    },
+    "animal-rabbit": {
+      "similar_item_ids": [
+        "plush-bunny"
+      ],
+      "show_placement_actions": true,
+      "note_zh": "绒毛兔子是家具玩偶，应保留；兔子是动物，应忽略。"
+    },
+    "house": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps.",
+      "reference_images": [
+        {
+          "id": "bundled-mailbox",
+          "image": "assets/recognition/entities/mailbox.png",
+          "sha256": "a01a0ddfe125646f0e824dfdf3a6eb6d0cb23b19f30cbd9397e90474c92655bc",
+          "source_url": "https://assets.stardewplan.com/assets/1.6.15/buildings/Mailbox.png",
+          "label_zh": "信箱（忽略）",
+          "label_en": "Mailbox (omit)",
+          "recognition_action": "omit",
+          "placement_supported": false
+        }
+      ]
+    },
+    "house-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps.",
+      "reference_images": [
+        {
+          "id": "bundled-mailbox",
+          "image": "assets/recognition/entities/mailbox.png",
+          "sha256": "a01a0ddfe125646f0e824dfdf3a6eb6d0cb23b19f30cbd9397e90474c92655bc",
+          "source_url": "https://assets.stardewplan.com/assets/1.6.15/buildings/Mailbox.png",
+          "label_zh": "信箱（忽略）",
+          "label_en": "Mailbox (omit)",
+          "recognition_action": "omit",
+          "placement_supported": false
+        }
+      ]
+    },
+    "house-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps.",
+      "reference_images": [
+        {
+          "id": "bundled-mailbox",
+          "image": "assets/recognition/entities/mailbox.png",
+          "sha256": "a01a0ddfe125646f0e824dfdf3a6eb6d0cb23b19f30cbd9397e90474c92655bc",
+          "source_url": "https://assets.stardewplan.com/assets/1.6.15/buildings/Mailbox.png",
+          "label_zh": "信箱（忽略）",
+          "label_en": "Mailbox (omit)",
+          "recognition_action": "omit",
+          "placement_supported": false
+        }
+      ]
+    },
+    "log-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "log-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "log-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "plank-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "plank-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "plank-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "stone-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "stone-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "stone-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "neighbor-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "neighbor-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "neighbor-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "rustic-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "rustic-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "rustic-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "beach-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "beach-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "beach-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "trailer-cabin": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "trailer-cabin-2": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "trailer-cabin-3": {
+      "note_zh": "农舍和联机小屋自带信箱；忽略独立识别、放置和计数。建筑图片中已有的信箱保留，勿当作出货箱、灯具或未知物体。 小桶、落地家具和灯具可放在 porch_object_cells 指定的走廊格，与建筑分别保留和计数。",
+      "card_note_zh": "自带信箱，忽略独立放置；走廊可放小桶、家具、灯具。",
+      "card_note_en": "Bundled mailbox: omit. Porch: equipment, furniture, lamps."
+    },
+    "shipping-bin": {
+      "note_zh": "出货箱占地2×1；开盖和闭盖是同一个出货箱，按默认闭盖外观放置。迷你出货箱占地1×1，信箱随住宅附带，三者不可混淆。",
+      "reference_images": [
+        {
+          "id": "shipping-bin-open-reference",
+          "image": "data/planner/images/shipping-bin-open.png",
+          "sha256": "03a0bb48fbe03dae90d117e159e3a807cb4f2e0f09d2fab6e4b9abc60334860f",
+          "source_url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shipping_Bin_Anim.gif",
+          "source_sha256": "f13eddb7f4433adb4afb33819b4c9065209d56085ac5aa292cc2d60088f8d445",
+          "source_frame": 50,
+          "label_zh": "开盖（同一出货箱）",
+          "label_en": "Open (same bin)",
+          "planner_type": "shipping-bin",
+          "placement_supported": false
+        }
+      ]
+    },
+    "greenhouse-repaired": {
+      "note_zh": "温室按7×6规划。完整外观前方凸出的3×2砖块为建筑自带效果，不单独放置、识别为地板或计数；玩家地板可覆盖该处，小桶和其他物品也可放置。图例中的铺装覆盖样式是独立地板，复刻时按可见铺装保留。",
+      "card_note_zh": "前方3×2可铺地板、放小桶等物品；自带砖块不计作地板。",
+      "card_note_en": "Front 3x2: flooring or objects allowed. Built-in bricks are not floor items.",
+      "reference_images": [
+        {
+          "id": "greenhouse-complete-reference",
+          "image": "data/planner/images/greenhouse-complete-reference.png",
+          "sha256": "ca0db483bfd863848a72fa8af361587998a404a9e6e7e33715da26cca678f94c",
+          "label_zh": "完整·自带砖块",
+          "label_en": "Full / built-in bricks",
+          "replaces_sprite_id": "greenhouse-repaired",
+          "placement_supported": false,
+          "planner_type": "greenhouse-repaired",
+          "source_url": "https://assets.stardewplan.com/assets/1.6.15/buildings/Greenhouse.png",
+          "source_sha256": "e2b297f266c76f27896611d061b36ca41331dae6343dc413ae35ac507e3ed7b8",
+          "source_layers": [
+            {
+              "image": "data/planner/images/greenhouse-repaired-default.png",
+              "sha256": "97dda6fafb0d31f8a40f8bb7752664a544481d93a0f3f078abffac602fb6063a",
+              "offset_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "image": "data/planner/images/greenhouse-front-decoration.png",
+              "sha256": "04e575414fc7081268918f69ed92788109e4d571e601f1559c252ccaf93322a7",
+              "offset_px": [
+                32,
+                160
+              ]
+            }
+          ],
+          "rendering_source": {
+            "url": "https://stardewplan.com/_app/immutable/chunks/Bna96aps.js",
+            "sha256": "1734f0e00b2ba34fb5398716386bcda096c828222a3dc1cc5aeefb00a7bed6bb",
+            "basis": "GreenhouseEntrance_top/bottom draw layers; corresponding tiles are hidden when a path is present."
+          }
+        },
+        {
+          "id": "greenhouse-flooring-reference",
+          "image": "data/planner/images/greenhouse-flooring-reference.png",
+          "sha256": "da1539ee2c6fb5b1558fc1ff96a3a57a2e9211e4caf80be5b105015325672c42",
+          "label_zh": "前方铺装覆盖示例",
+          "label_en": "Flooring over front",
+          "placement_supported": false,
+          "planner_type": "greenhouse-repaired",
+          "source": "Composition of bundled native greenhouse and stone-floor sprites; demonstrates user-placed flooring."
+        }
+      ]
+    }
+  },
+  "aliases": {
+    "Gate": "wood-gate",
+    "大门": "wood-gate",
+    "Wood Floor": "wooden-floor",
+    "Wood Path": "wooden-path",
+    "Stone Walkway Floor": "stone-walkway",
+    "Cobblestone Path": "cobblestone"
+  }
+}

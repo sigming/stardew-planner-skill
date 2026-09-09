@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "game_version": "1.6.15",
+  "site_verification": {
+    "homepage_source": {
+      "url": "https://stardewplan.com/",
+      "sha256": "693d30fa405542f5b0c6ca505058cc54f2cdcf2ac08ffef4594565b5503a6b02",
+      "bytes": 3850,
+      "retrieved_at": "2026-09-08T11:18:35.924372+00:00"
+    },
+    "entry_source": {
+      "url": "https://stardewplan.com/_app/immutable/entry/app.CI2rUFl6.js",
+      "sha256": "7a4818078f7f9bd9738055792c28214ef17533017e832a3960786bd1451bac5e",
+      "bytes": 6688,
+      "retrieved_at": "2026-09-08T11:18:36.096940+00:00"
+    },
+    "catalog_source": {
+      "url": "https://stardewplan.com/_app/immutable/chunks/BKMU8frg.js",
+      "sha256": "ed96e58715e8ef8ad9cd92bdd7265c17046f84f9806970c2e04b4ee16a5a3d4a",
+      "bytes": 6111,
+      "retrieved_at": "2026-09-08T11:18:36.687753+00:00"
+    },
+    "verified_vanilla_map_files": [
+      "Barn.tmx",
+      "Barn2.tmx",
+      "Barn3.tmx",
+      "Cellar.tmx",
+      "Coop.tmx",
+      "Coop2.tmx",
+      "Coop3.tmx",
+      "Farm.tmx",
+      "FarmCave.tmx",
+      "FarmHouse.tmx",
+      "FarmHouse1.tmx",
+      "FarmHouse2.tmx",
+      "Farm_Combat.tmx",
+      "Farm_Fishing.tmx",
+      "Farm_Foraging.tmx",
+      "Farm_FourCorners.tmx",
+      "Farm_Island.tmx",
+      "Farm_Mining.tmx",
+      "Farm_Ranching.tmx",
+      "Greenhouse.tmx",
+      "IslandFarmHouse.tmx",
+      "Island_W.tmx",
+      "Shed.tmx",
+      "Shed2.tmx",
+      "SlimeHutch.tmx"
+    ]
+  },
+  "maps": {
+    "regular": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 0,
+        "different_pixel_ratio": 0.0,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 65],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 1354,
+          "native_blocked": 1413,
+          "newly_blocked": 59,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 1437,
+          "native_blocked": 1468,
+          "newly_blocked": 31,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 1737,
+          "native_blocked": 1740,
+          "newly_blocked": 3,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "fishing": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 51271,
+        "different_pixel_ratio": 0.038515,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 65],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 1892,
+          "native_blocked": 2926,
+          "newly_blocked": 1034,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 2995,
+          "native_blocked": 3004,
+          "newly_blocked": 9,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 3536,
+          "native_blocked": 3539,
+          "newly_blocked": 3,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "foraging": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 136,
+        "different_pixel_ratio": 0.000102,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 65],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 1898,
+          "native_blocked": 1991,
+          "newly_blocked": 94,
+          "baseline_only": 1
+        },
+        "buildable": {
+          "baseline_blocked": 2161,
+          "native_blocked": 2167,
+          "newly_blocked": 7,
+          "baseline_only": 1
+        },
+        "tillable": {
+          "baseline_blocked": 3746,
+          "native_blocked": 3748,
+          "newly_blocked": 3,
+          "baseline_only": 1
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "mining": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 429,
+        "different_pixel_ratio": 0.000322,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 65],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 2158,
+          "native_blocked": 2356,
+          "newly_blocked": 198,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 2489,
+          "native_blocked": 2497,
+          "newly_blocked": 8,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 3504,
+          "native_blocked": 3507,
+          "newly_blocked": 3,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "combat": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 0,
+        "different_pixel_ratio": 0.0,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 65],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 2069,
+          "native_blocked": 2472,
+          "newly_blocked": 403,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 2532,
+          "native_blocked": 2539,
+          "newly_blocked": 7,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 3013,
+          "native_blocked": 3014,
+          "newly_blocked": 1,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "fourcorners": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 0,
+        "different_pixel_ratio": 0.0,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [80, 80],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 2654,
+          "native_blocked": 2769,
+          "newly_blocked": 115,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 2892,
+          "native_blocked": 2898,
+          "newly_blocked": 6,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 3412,
+          "native_blocked": 3413,
+          "newly_blocked": 1,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "beach": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 0,
+        "different_pixel_ratio": 0.0,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [110, 110],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 2581,
+          "native_blocked": 7253,
+          "newly_blocked": 4672,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 7339,
+          "native_blocked": 7400,
+          "newly_blocked": 61,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 9357,
+          "native_blocked": 9360,
+          "newly_blocked": 3,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "ranching": {
+      "dimensions_match": true,
+      "spring_background_comparison": {
+        "method": "Native TMX layers versus retained background; absolute luma difference greater than 10.",
+        "different_pixels": 126,
+        "different_pixel_ratio": 6.6e-05,
+        "note": "Native first-frame water animation and cleared default building ground can differ from the retained background."
+      },
+      "native_size_tiles": [100, 75],
+      "restrictions_comparison": {
+        "accessible": {
+          "baseline_blocked": 2905,
+          "native_blocked": 3202,
+          "newly_blocked": 297,
+          "baseline_only": 0
+        },
+        "buildable": {
+          "baseline_blocked": 3243,
+          "native_blocked": 3249,
+          "newly_blocked": 6,
+          "baseline_only": 0
+        },
+        "tillable": {
+          "baseline_blocked": 5431,
+          "native_blocked": 5434,
+          "newly_blocked": 3,
+          "baseline_only": 0
+        }
+      },
+      "background_status": "Existing four-season native-scale backgrounds retained; map dimensions and restrictions checked against TMX."
+    },
+    "farmhouse": {
+      "native_size_tiles": [12, 12],
+      "background_size_px": [192, 192],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 53,
+        "buildable": 74,
+        "tillable": 144,
+        "furniture": 74,
+        "wall": 114
+      }
+    },
+    "farmhouse_upgraded_1": {
+      "native_size_tiles": [30, 12],
+      "background_size_px": [480, 192],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 133,
+        "buildable": 186,
+        "tillable": 360,
+        "furniture": 186,
+        "wall": 276
+      }
+    },
+    "farmhouse_upgraded_2": {
+      "native_size_tiles": [70, 46],
+      "background_size_px": [1120, 736],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 2730,
+        "buildable": 2836,
+        "tillable": 3220,
+        "furniture": 2836,
+        "wall": 3046
+      }
+    },
+    "farmhouse_upgraded_3": {
+      "native_size_tiles": [70, 46],
+      "background_size_px": [1120, 736],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 2724,
+        "buildable": 2836,
+        "tillable": 3220,
+        "furniture": 2836,
+        "wall": 3046
+      }
+    },
+    "farmhouse_cellar": {
+      "native_size_tiles": [20, 18],
+      "background_size_px": [320, 288],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 154,
+        "buildable": 162,
+        "tillable": 360,
+        "furniture": 162,
+        "wall": 360
+      }
+    },
+    "shed": {
+      "native_size_tiles": [13, 14],
+      "background_size_px": [208, 224],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 60,
+        "buildable": 83,
+        "tillable": 182,
+        "furniture": 83,
+        "wall": 149
+      }
+    },
+    "shed-big": {
+      "native_size_tiles": [19, 17],
+      "background_size_px": [304, 272],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 84,
+        "buildable": 119,
+        "tillable": 323,
+        "furniture": 119,
+        "wall": 272
+      }
+    },
+    "barn": {
+      "native_size_tiles": [18, 15],
+      "background_size_px": [288, 240],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 129,
+        "buildable": 130,
+        "tillable": 270,
+        "furniture": 130,
+        "wall": 270
+      }
+    },
+    "barn-big": {
+      "native_size_tiles": [22, 15],
+      "background_size_px": [352, 240],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 151,
+        "buildable": 152,
+        "tillable": 330,
+        "furniture": 152,
+        "wall": 330
+      }
+    },
+    "barn-deluxe": {
+      "native_size_tiles": [25, 15],
+      "background_size_px": [400, 240],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 166,
+        "buildable": 167,
+        "tillable": 375,
+        "furniture": 167,
+        "wall": 375
+      }
+    },
+    "coop": {
+      "native_size_tiles": [12, 10],
+      "background_size_px": [192, 160],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 69,
+        "buildable": 70,
+        "tillable": 120,
+        "furniture": 70,
+        "wall": 120
+      }
+    },
+    "coop-big": {
+      "native_size_tiles": [16, 10],
+      "background_size_px": [256, 160],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 91,
+        "buildable": 92,
+        "tillable": 160,
+        "furniture": 92,
+        "wall": 160
+      }
+    },
+    "coop-deluxe": {
+      "native_size_tiles": [23, 10],
+      "background_size_px": [368, 160],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 127,
+        "buildable": 128,
+        "tillable": 230,
+        "furniture": 128,
+        "wall": 230
+      }
+    },
+    "slime-hutch": {
+      "native_size_tiles": [18, 14],
+      "background_size_px": [288, 224],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 128,
+        "buildable": 129,
+        "tillable": 252,
+        "furniture": 129,
+        "wall": 252
+      }
+    },
+    "greenhouse": {
+      "native_size_tiles": [20, 24],
+      "background_size_px": [320, 384],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 209,
+        "buildable": 210,
+        "tillable": 360,
+        "furniture": 210,
+        "wall": 480
+      }
+    },
+    "farm-cave": {
+      "native_size_tiles": [12, 14],
+      "background_size_px": [192, 224],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 71,
+        "buildable": 72,
+        "tillable": 168,
+        "furniture": 72,
+        "wall": 168
+      }
+    },
+    "island-farmhouse": {
+      "native_size_tiles": [30, 18],
+      "background_size_px": [480, 288],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 202,
+        "buildable": 259,
+        "tillable": 540,
+        "furniture": 259,
+        "wall": 429
+      }
+    },
+    "ginger_island": {
+      "native_size_tiles": [110, 110],
+      "background_size_px": [1760, 1760],
+      "background_status": "Rendered from native TMX layers and native tilesheets at 16 pixels per tile.",
+      "blocked_counts": {
+        "accessible": 6260,
+        "buildable": 10395,
+        "tillable": 11163,
+        "furniture": 6271,
+        "wall": 12100
+      }
+    }
+  }
+}

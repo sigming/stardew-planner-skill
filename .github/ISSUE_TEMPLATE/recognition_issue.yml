@@ -1,0 +1,34 @@
+name: 识别问题 / Recognition issue
+description: 报告未识别的内容或识别错误，并提供截图。Report unrecognized content or incorrect recognition with screenshots.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请提供问题描述和截图，可使用中文或英文填写。
+        Please provide a description and screenshots. You may write in Chinese or English.
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 / Problem description
+      description: |
+        请说明地图、涉及的物品或区域、预期结果和实际识别结果。
+        Describe the map, affected items or area, expected result, and actual recognition result.
+      placeholder: |
+        地图及问题位置 / Map and affected area:
+        未识别或识别错误的内容 / Unrecognized or incorrectly recognized content:
+        预期结果 / Expected result:
+        实际结果 / Actual result:
+    validations:
+      required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: 问题截图或对比图 / Screenshots or comparison images
+      description: |
+        未识别：请上传未识别区域的截图，并标注具体位置。
+        识别错误：请上传同一区域的参考图和识别结果对比图，并标注错误位置。
+        Unrecognized content: upload a screenshot of the affected area and mark its location.
+        Incorrect recognition: upload the reference image and recognition result for the same area, with the errors marked.
+    validations:
+      required: true
+      accept: '.png,.jpg,.jpeg,.webp,.gif'

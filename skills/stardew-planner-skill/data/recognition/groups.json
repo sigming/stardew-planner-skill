@@ -1,0 +1,1828 @@
+{
+  "schema_version": 2,
+  "groups": {
+    "buildings": {
+      "name_zh": "所有建筑",
+      "name_en": "Buildings",
+      "atlas_order": 1,
+      "families": [
+        {
+          "id": "farmhouse",
+          "name_zh": "农舍与温室",
+          "name_en": "Farmhouse and greenhouse",
+          "ids": [
+            "house",
+            "house-2",
+            "house-3",
+            "greenhouse-repaired"
+          ]
+        },
+        {
+          "id": "coops",
+          "name_zh": "鸡舍升级",
+          "name_en": "Coop upgrades",
+          "ids": [
+            "coop",
+            "big-coop",
+            "deluxe-coop"
+          ]
+        },
+        {
+          "id": "barns",
+          "name_zh": "畜棚升级",
+          "name_en": "Barn upgrades",
+          "ids": [
+            "barn",
+            "big-barn",
+            "deluxe-barn"
+          ]
+        },
+        {
+          "id": "sheds",
+          "name_zh": "小屋升级",
+          "name_en": "Shed upgrades",
+          "ids": [
+            "shed",
+            "big-shed"
+          ]
+        },
+        {
+          "id": "cabins",
+          "name_zh": "联机小屋",
+          "name_en": "Cabins",
+          "ids": [
+            "stone-cabin",
+            "plank-cabin",
+            "log-cabin",
+            "neighbor-cabin",
+            "rustic-cabin",
+            "beach-cabin",
+            "trailer-cabin"
+          ]
+        },
+        {
+          "id": "obelisks",
+          "name_zh": "图腾柱",
+          "name_en": "Obelisks",
+          "ids": [
+            "earth-obelisk",
+            "water-obelisk",
+            "desert-obelisk",
+            "island-obelisk"
+          ]
+        },
+        {
+          "id": "animal_buildings",
+          "name_zh": "动物建筑",
+          "name_en": "Animal buildings",
+          "ids": [
+            "stable",
+            "fish-pond",
+            "slime-hutch"
+          ]
+        },
+        {
+          "id": "farm_facilities",
+          "name_zh": "农场设施",
+          "name_en": "Farm facilities",
+          "ids": [
+            "silo",
+            "mill",
+            "well"
+          ]
+        },
+        {
+          "id": "pet_bowls",
+          "name_zh": "宠物碗",
+          "name_en": "Pet bowls",
+          "ids": [
+            "pet-bowl",
+            "hay-pet-bowl",
+            "stone-pet-bowl"
+          ]
+        },
+        {
+          "id": "special_buildings",
+          "name_zh": "特殊建筑",
+          "name_en": "Special buildings",
+          "ids": [
+            "junimo-hut",
+            "gold-clock"
+          ]
+        }
+      ]
+    },
+    "tools": {
+      "name_zh": "工具设施",
+      "name_en": "Tools and functional facilities",
+      "atlas_order": 2,
+      "families": [
+        {
+          "id": "sprinklers",
+          "name_zh": "洒水器",
+          "name_en": "Sprinklers",
+          "ids": [
+            "sprinkler",
+            "sprinkler-pressured",
+            "quality-sprinkler",
+            "quality-sprinkler-pressured",
+            "iridium-sprinkler",
+            "iridium-sprinkler-pressured"
+          ]
+        },
+        {
+          "id": "scarecrows",
+          "name_zh": "稻草人",
+          "name_en": "Scarecrows",
+          "ids": [
+            "scarecrow",
+            "deluxe-scarecrow",
+            "rarecrow-1",
+            "rarecrow-2",
+            "rarecrow-3",
+            "rarecrow-4",
+            "rarecrow-5",
+            "rarecrow-6",
+            "rarecrow-7",
+            "rarecrow-8"
+          ]
+        },
+        {
+          "id": "growing",
+          "name_zh": "种植设施",
+          "name_en": "Growing facilities",
+          "ids": [
+            "seed-maker",
+            "garden-pot",
+            "farm-computer"
+          ]
+        },
+        {
+          "id": "beekeeping",
+          "name_zh": "养蜂设施",
+          "name_en": "Beekeeping",
+          "ids": [
+            "bee-house"
+          ]
+        },
+        {
+          "id": "storage",
+          "name_zh": "箱子与储物",
+          "name_en": "Chests and storage",
+          "ids": [
+            "chest",
+            "big-chest",
+            "stone-chest",
+            "big-stone-chest",
+            "junimo-chest",
+            "mini-fridge",
+            "shipping-bin",
+            "mini-shipping-bin"
+          ]
+        },
+        {
+          "id": "animal_care",
+          "name_zh": "畜牧设施",
+          "name_en": "Animal care",
+          "ids": [
+            "heater",
+            "auto-grabber",
+            "auto-petter",
+            "incubator",
+            "ostrich-incubator",
+            "feed-hopper"
+          ]
+        },
+        {
+          "id": "farm_processing",
+          "name_zh": "农产品加工",
+          "name_en": "Farm processing",
+          "ids": [
+            "preserves-jar",
+            "keg",
+            "cask",
+            "dehydrator",
+            "mayonnaise-machine",
+            "cheese-press",
+            "oil-maker",
+            "loom",
+            "coffee-maker",
+            "soda-machine"
+          ]
+        },
+        {
+          "id": "fishing",
+          "name_zh": "捕鱼与鱼饵",
+          "name_en": "Fishing and bait",
+          "ids": [
+            "crab-pot",
+            "bait-maker",
+            "worm-bin",
+            "deluxe-worm-bin",
+            "fish-smoker"
+          ]
+        },
+        {
+          "id": "tree_production",
+          "name_zh": "树木与蘑菇生产",
+          "name_en": "Trees and mushrooms",
+          "ids": [
+            "tapper",
+            "heavy-tapper",
+            "mushroom-log",
+            "mushroom-box"
+          ]
+        },
+        {
+          "id": "recycling",
+          "name_zh": "回收与材料处理",
+          "name_en": "Recycling and materials",
+          "ids": [
+            "recycling-machine",
+            "wood-chipper",
+            "charcoal-kiln",
+            "bone-mill",
+            "deconstructor"
+          ]
+        },
+        {
+          "id": "minerals",
+          "name_zh": "矿物加工",
+          "name_en": "Mineral processing",
+          "ids": [
+            "furnace",
+            "heavy-furnace",
+            "geode-crusher",
+            "crystalarium"
+          ]
+        },
+        {
+          "id": "crafting",
+          "name_zh": "制作与改装",
+          "name_en": "Crafting and upgrades",
+          "ids": [
+            "workbench",
+            "hopper",
+            "anvil",
+            "mini-forge",
+            "sewing-machine"
+          ]
+        },
+        {
+          "id": "slimes",
+          "name_zh": "史莱姆设施",
+          "name_en": "Slime facilities",
+          "ids": [
+            "slime-incubator",
+            "slime-egg-press"
+          ]
+        },
+        {
+          "id": "power",
+          "name_zh": "电池生产",
+          "name_en": "Battery production",
+          "ids": [
+            "lightning-rod",
+            "solar-panel"
+          ]
+        },
+        {
+          "id": "statues",
+          "name_zh": "功能雕像",
+          "name_en": "Functional statues",
+          "ids": [
+            "statue-of-perfection",
+            "statue-of-true-perfection",
+            "statue-of-endless-fortune",
+            "statue-of-blessings",
+            "statue-of-the-dwarf-king",
+            "wicked-statue"
+          ]
+        },
+        {
+          "id": "interaction",
+          "name_zh": "传送与交互",
+          "name_en": "Travel and interaction",
+          "ids": [
+            "mini-obelisk",
+            "staircase",
+            "telephone",
+            "mini-jukebox"
+          ]
+        },
+        {
+          "id": "camping",
+          "name_zh": "临时野炊与露营设备",
+          "name_en": "Temporary camping equipment",
+          "ids": [
+            "cookout-kit",
+            "tent-kit"
+          ]
+        }
+      ]
+    },
+    "decorations": {
+      "name_zh": "装饰设施",
+      "name_en": "Decorations and environment objects",
+      "atlas_order": 3,
+      "families": [
+        {
+          "id": "lighting",
+          "name_zh": "火把与灯柱",
+          "name_en": "Torches and lamps",
+          "ids": [
+            "tall-torch",
+            "wood-lamp-post",
+            "iron-lamp-post"
+          ]
+        },
+        {
+          "id": "fires",
+          "name_zh": "篝火",
+          "name_en": "Campfires",
+          "ids": [
+            "campfire",
+            "bonfire"
+          ]
+        },
+        {
+          "id": "braziers",
+          "name_zh": "火炬与火盆",
+          "name_en": "Braziers",
+          "ids": [
+            "wooden-brazier",
+            "stone-brazier",
+            "stump-brazier",
+            "carved-brazier",
+            "skull-brazier",
+            "barrel-brazier",
+            "marble-brazier",
+            "gold-brazier"
+          ]
+        },
+        {
+          "id": "signs",
+          "name_zh": "标牌",
+          "name_en": "Signs",
+          "ids": [
+            "wood-sign",
+            "stone-sign",
+            "dark-sign",
+            "text-sign",
+            "sign-of-the-vessel"
+          ]
+        },
+        {
+          "id": "statues",
+          "name_zh": "雕像与摆件",
+          "name_en": "Statues and ornaments",
+          "ids": [
+            "stone-cairn",
+            "stone-frog",
+            "stone-junimo",
+            "stone-owl",
+            "stone-parrot",
+            "solid-gold-lewis",
+            "stardew-hero-trophy",
+            "lawn-flamingo"
+          ]
+        },
+        {
+          "id": "plants",
+          "name_zh": "植物与季节装饰",
+          "name_en": "Plants and seasonal decor",
+          "ids": [
+            "ornamental-hay-bale"
+          ]
+        },
+        {
+          "id": "canes",
+          "name_zh": "彩色手杖装饰",
+          "name_en": "Decorative canes",
+          "ids": [
+            "big-red-cane",
+            "big-green-cane",
+            "red-canes",
+            "green-canes",
+            "mixed-cane"
+          ]
+        },
+        {
+          "id": "wood_props",
+          "name_zh": "木制摆件",
+          "name_en": "Wooden props",
+          "ids": [
+            "barrel",
+            "crate",
+            "basic-log",
+            "log-section"
+          ]
+        },
+        {
+          "id": "display_props",
+          "name_zh": "陈列与主题摆件",
+          "name_en": "Display props",
+          "ids": [
+            "camera",
+            "item-pedestal",
+            "decorative-spears",
+            "ritual-mask",
+            "skeleton-model",
+            "suit-of-armor",
+            "grave-stone",
+            "obelisk"
+          ]
+        },
+        {
+          "id": "doors",
+          "name_zh": "门",
+          "name_en": "Doors",
+          "ids": []
+        },
+        {
+          "id": "capsules",
+          "name_zh": "胶囊",
+          "name_en": "Capsules",
+          "ids": [
+            "strange-capsule",
+            "empty-capsule"
+          ]
+        },
+        {
+          "id": "environment",
+          "name_zh": "石块与环境物品",
+          "name_en": "Environment objects",
+          "ids": [
+            "stone",
+            "large-rock",
+            "boulder",
+            "large-stump",
+            "twig",
+            "meteorite",
+            "slime-ball"
+          ]
+        }
+      ]
+    },
+    "flooring_fences": {
+      "name_zh": "地板与栏杆",
+      "name_en": "Flooring, paths, fences and gates",
+      "atlas_order": 4,
+      "families": [
+        {
+          "id": "wood_floors",
+          "name_zh": "木质与稻草地板",
+          "name_en": "Wood and straw floors",
+          "ids": [
+            "wooden-floor",
+            "rustic-plank-floor",
+            "weathered-floor",
+            "straw-floor"
+          ]
+        },
+        {
+          "id": "stone_floors",
+          "name_zh": "石砖与水晶地板",
+          "name_en": "Stone and crystal floors",
+          "ids": [
+            "stone-floor",
+            "brick-floor",
+            "crystal-floor",
+            "stone-walkway"
+          ]
+        },
+        {
+          "id": "paths",
+          "name_zh": "小径",
+          "name_en": "Paths",
+          "ids": [
+            "cobblestone",
+            "gravel-path",
+            "steppingstone-path",
+            "wooden-path",
+            "crystal-path"
+          ]
+        },
+        {
+          "id": "fences_gates",
+          "name_zh": "围栏与配套门",
+          "name_en": "Fences and matching gates",
+          "ids": [
+            "wood-fence",
+            "wood-gate",
+            "stone-fence",
+            "stone-gate",
+            "iron-fence",
+            "iron-gate",
+            "hardwood-fence",
+            "hardwood-gate"
+          ]
+        },
+        {
+          "id": "soil",
+          "name_zh": "耕地",
+          "name_en": "Tilled soil",
+          "ids": [
+            "hoe-dirt",
+            "hoe-dirt-watered"
+          ]
+        }
+      ]
+    },
+    "trees": {
+      "name_zh": "树木与果树",
+      "name_en": "Trees and fruit trees",
+      "atlas_order": 5,
+      "families": [
+        {
+          "id": "forest_trees",
+          "name_zh": "普通与特殊树木",
+          "name_en": "Forest and special trees",
+          "ids": [
+            "oak-tree",
+            "maple-tree",
+            "pine-tree",
+            "mahogany-tree",
+            "mystic-tree",
+            "mushroom-tree",
+            "palm-tree",
+            "palm-tree-island"
+          ]
+        },
+        {
+          "id": "fruit_trees",
+          "name_zh": "果树",
+          "name_en": "Fruit trees",
+          "ids": [
+            "apricot-tree",
+            "cherry-tree",
+            "orange-tree",
+            "peach-tree",
+            "apple-tree",
+            "pomegranate-tree",
+            "banana-tree",
+            "mango-tree"
+          ]
+        },
+        {
+          "id": "ornamental_trees",
+          "name_zh": "装饰树木",
+          "name_en": "Ornamental trees",
+          "ids": [
+            "green-tree-1",
+            "green-tree-2",
+            "green-tree-3",
+            "dead-tree"
+          ]
+        }
+      ]
+    },
+    "artworks": {
+      "name_zh": "画作、照片与海报",
+      "name_en": "Paintings, portraits, photos and posters",
+      "atlas_order": 6,
+      "families": [
+        {
+          "id": "paintings",
+          "name_zh": "画作",
+          "name_en": "Paintings",
+          "ids": [
+            "'1000-years-from-now'",
+            "'a-night-on-eco-hill'",
+            "'abstract'",
+            "'binary'",
+            "'blue-city'",
+            "'blueberries'",
+            "'boat'",
+            "'burnt-offering'",
+            "'checkers'",
+            "'clouds'",
+            "'community-center'",
+            "'dancing-grass'",
+            "'frozen-dreams'",
+            "'groovy'",
+            "'highway-89'",
+            "'hut'",
+            "'it-howls-in-the-rain'",
+            "'jade-hills'",
+            "'jade-hills-extended'",
+            "'journey-of-the-prairie-king:-the-motion-picture'",
+            "'kitemaster-'95'",
+            "'land-of-clay'",
+            "'little-buddies'",
+            "'little-tree'",
+            "'mysterium'",
+            "'natural-wonders:-exploring-our-vibrant-world'",
+            "'pathways'",
+            "'physics-101'",
+            "'portrait-of-a-mermaid'",
+            "'primal-motion'",
+            "'queen-of-the-gem-sea'",
+            "'red-eagle'",
+            "'runes'",
+            "'solar-kingdom'",
+            "'spires'",
+            "'squid-kid'",
+            "'stardrop'",
+            "'starship'",
+            "'sun-#44'",
+            "'sun-#45'",
+            "'the-brave-little-sapling'",
+            "'the-miracle-at-coldstar-ranch'",
+            "'the-muzzamaroo'",
+            "'the-serpent'",
+            "'the-zuzu-city-express'",
+            "'three-trees'",
+            "'tropical-fish-#173'",
+            "'ufo'",
+            "'vanilla-villa'",
+            "'vga-paradise'",
+            "'vista'",
+            "'void-swirls'",
+            "'volcano'-photo",
+            "'wizard's-tower'",
+            "'wumbus'"
+          ]
+        },
+        {
+          "id": "portraits",
+          "name_zh": "人物肖像",
+          "name_en": "Portraits",
+          "ids": [
+            "abigail-portrait",
+            "alex-portrait",
+            "elliott-portrait",
+            "emily-portrait",
+            "haley-portrait",
+            "harvey-portrait",
+            "leah-portrait",
+            "maru-portrait",
+            "penny-portrait",
+            "sam-portrait",
+            "sebastian-portrait",
+            "shane-portrait",
+            "krobus-portrait"
+          ]
+        },
+        {
+          "id": "photos_posters",
+          "name_zh": "照片与其他画作",
+          "name_en": "Photos and other art",
+          "ids": [
+            "art-photo",
+            "art-photo-2",
+            "calico-falls",
+            "exotic-palace",
+            "foliage-print",
+            "j.-painting",
+            "joja-cola-painting",
+            "joja-hq-painting",
+            "little-photos",
+            "manager-of-the-year",
+            "my-first-painting",
+            "pig-painting",
+            "skull-poster",
+            "sun-dunes",
+            "wizard-study",
+            "world-map",
+            "needlepoint-flower",
+            "periodic-table"
+          ]
+        }
+      ]
+    },
+    "ornamental_plants": {
+      "name_zh": "观赏花卉与盆栽",
+      "name_en": "Ornamental flowers and plants",
+      "atlas_order": 7,
+      "families": [
+        {
+          "id": "seasonal_plants",
+          "name_zh": "季节性植物与装饰",
+          "name_en": "Seasonal plants and decor",
+          "ids": [
+            "seasonal-plant-1",
+            "seasonal-plant-2",
+            "seasonal-plant-3",
+            "seasonal-plant-4",
+            "seasonal-plant-5",
+            "seasonal-plant-6",
+            "seasonal-decor-four-seasons",
+            "tub-flowers-four-seasons"
+          ]
+        },
+        {
+          "id": "ornamental_flowers",
+          "name_zh": "观赏花卉",
+          "name_en": "Ornamental flowers",
+          "ids": [
+            "dried-sunflowers",
+            "junimo-flower",
+            "retro-flower",
+            "s.-wall-flower",
+            "wall-flower"
+          ]
+        },
+        {
+          "id": "house_plants",
+          "name_zh": "盆栽与装饰树木",
+          "name_en": "Potted plants and ornamental trees",
+          "ids": [
+            "bonsai-tree",
+            "corn-plant",
+            "curly-tree",
+            "deluxe-tree",
+            "elegant-vase",
+            "exotic-tree",
+            "fancy-house-plant",
+            "house-plant",
+            "indoor-hanging-basket",
+            "indoor-palm",
+            "junimo-plant",
+            "junimo-tree",
+            "long-cactus",
+            "long-palm",
+            "manicured-pine",
+            "obsidian-vase",
+            "palm-wall-ornament",
+            "plastic-plant",
+            "potted-red-mushroom",
+            "retro-plant",
+            "s.-pine",
+            "small-plant",
+            "swamp-plant",
+            "table-plant",
+            "tall-house-plant",
+            "topiary-tree",
+            "wall-basket",
+            "wall-cactus",
+            "wall-palm",
+            "winter-tree-decal"
+          ]
+        }
+      ]
+    },
+    "furniture": {
+      "name_zh": "家具与室内摆件",
+      "name_en": "Furniture and interior props",
+      "atlas_order": 8,
+      "families": [
+        {
+          "id": "seating",
+          "name_zh": "椅子、沙发与坐垫",
+          "name_en": "Chairs, sofas and cushions",
+          "ids": [
+            "ancient-stool",
+            "birch-bench",
+            "birch-chair",
+            "black-cushion",
+            "blue-armchair",
+            "blue-couch",
+            "blue-cushion",
+            "blue-diner-chair",
+            "blue-stool",
+            "breakfast-chair",
+            "brown-armchair",
+            "brown-couch",
+            "brown-cushion",
+            "country-chair",
+            "crystal-chair",
+            "cute-chair",
+            "dark-couch",
+            "dark-junimo-cushion",
+            "dark-retro-cushion",
+            "dark-throne",
+            "dark-wizard-cushion",
+            "desert-chair",
+            "dining-chair",
+            "gray-joja-cushion",
+            "green-armchair",
+            "green-couch",
+            "green-cushion",
+            "green-office-stool",
+            "green-plush-seat",
+            "green-stool",
+            "groovy-chair",
+            "joja-chair",
+            "joja-couch",
+            "joja-cushion",
+            "joja-stool",
+            "junimo-chair",
+            "junimo-couch",
+            "junimo-cushion",
+            "junimo-stool",
+            "king-chair",
+            "large-brown-couch",
+            "mahogany-bench",
+            "mahogany-chair",
+            "metal-chair",
+            "modern-bench",
+            "moldy-couch",
+            "oak-bench",
+            "oak-chair",
+            "orange-office-stool",
+            "pink-office-chair",
+            "pink-plush-seat",
+            "plastic-lawn-chair",
+            "purple-office-chair",
+            "red-armchair",
+            "red-couch",
+            "red-cushion",
+            "red-diner-chair",
+            "retro-chair",
+            "retro-couch",
+            "retro-cushion",
+            "retro-stool",
+            "stump-seat",
+            "tropical-chair",
+            "walnut-bench",
+            "walnut-chair",
+            "winter-chair",
+            "wizard-chair",
+            "wizard-couch",
+            "wizard-cushion",
+            "wizard-stool",
+            "woodsy-couch",
+            "yellow-armchair",
+            "yellow-couch",
+            "yellow-cushion"
+          ]
+        },
+        {
+          "id": "tables",
+          "name_zh": "桌子",
+          "name_en": "Tables",
+          "ids": [
+            "ancient-table",
+            "birch-end-table",
+            "birch-lamp-end-table",
+            "birch-table",
+            "birch-tea-table",
+            "bountiful-dining-table",
+            "candy-table",
+            "coffee-table",
+            "dark-table",
+            "desert-end-table",
+            "desert-table",
+            "diviner-table",
+            "elixir-table",
+            "fancy-table",
+            "festive-dining-table",
+            "grandmother-end-table",
+            "gray-joja-coffee-table",
+            "gray-joja-end-table",
+            "joja-coffee-table",
+            "joja-cola-tea-table",
+            "joja-end-table",
+            "joja-table",
+            "junimo-end-table",
+            "junimo-table",
+            "junimo-tea-table",
+            "long-elixir-table",
+            "luau-table",
+            "luxury-table",
+            "mahogany-dining-table",
+            "mahogany-end-table",
+            "mahogany-lamp-end-table",
+            "mahogany-table",
+            "mahogany-tea-table",
+            "modern-dining-table",
+            "modern-end-table",
+            "modern-table",
+            "modern-tea-table",
+            "moon-table",
+            "neolithic-table",
+            "oak-end-table",
+            "oak-lamp-end-table",
+            "oak-table",
+            "oak-tea-table",
+            "plastic-lawn-end-table",
+            "pub-table",
+            "puzzle-table",
+            "radio-desk",
+            "retro-end-table",
+            "retro-table",
+            "retro-tea-table",
+            "spirits-table",
+            "sun-table",
+            "walnut-end-table",
+            "walnut-lamp-end-table",
+            "walnut-table",
+            "walnut-tea-table",
+            "wine-table",
+            "winter-dining-table",
+            "winter-end-table",
+            "winter-table",
+            "wizard-end-table",
+            "wizard-table",
+            "wizard-tea-table"
+          ]
+        },
+        {
+          "id": "beds",
+          "name_zh": "床",
+          "name_en": "Beds",
+          "ids": [
+            "bed",
+            "birch-double-bed",
+            "blue-pinstripe-bed",
+            "blue-pinstripe-double-bed",
+            "child-bed",
+            "deluxe-red-double-bed",
+            "double-bed",
+            "exotic-double-bed",
+            "fisher-double-bed",
+            "midnight-beach-bed",
+            "midnight-beach-double-bed",
+            "modern-double-bed",
+            "pirate-double-bed",
+            "starry-double-bed",
+            "strawberry-double-bed",
+            "tropical-bed",
+            "tropical-double-bed",
+            "wild-double-bed",
+            "joja-bed",
+            "wizard-bed",
+            "junimo-bed",
+            "retro-bed"
+          ]
+        },
+        {
+          "id": "storage",
+          "name_zh": "柜子与书架",
+          "name_en": "Cabinets and bookshelves",
+          "ids": [
+            "artist-bookcase",
+            "birch-dresser",
+            "bookcase",
+            "brochure-cabinet",
+            "china-cabinet",
+            "dark-bookcase",
+            "elixir-shelf",
+            "gray-joja-bookcase",
+            "gray-joja-dresser",
+            "joja-bookcase",
+            "joja-cola-fridge",
+            "joja-dresser",
+            "junimo-bookcase",
+            "junimo-dresser",
+            "large-wizard-bookcase",
+            "luxury-bookcase",
+            "mahogany-dresser",
+            "modern-bookcase",
+            "oak-dresser",
+            "retro-bookcase",
+            "retro-cabinet",
+            "retro-dresser",
+            "short-bookcase",
+            "short-wizard-bookcase",
+            "small-elixir-shelf",
+            "small-stacked-elixir-shelf",
+            "small-wizard-bookcase",
+            "stacked-elixir-shelf",
+            "walnut-dresser",
+            "wizard-bookcase",
+            "wizard-bookshelf",
+            "wizard-dresser"
+          ]
+        },
+        {
+          "id": "rugs",
+          "name_zh": "地毯与垫子",
+          "name_en": "Rugs and mats",
+          "ids": [
+            "bamboo-mat",
+            "blossom-rug",
+            "bone-rug",
+            "burlap-rug",
+            "circular-junimo-rug",
+            "dark-rug",
+            "desert-rug",
+            "fruit-salad-rug",
+            "funky-rug",
+            "green-cottage-rug",
+            "icy-rug",
+            "joja-rug",
+            "junimo-mat",
+            "junimo-rug",
+            "large-cottage-rug",
+            "large-green-rug",
+            "large-joja-rug",
+            "large-red-rug",
+            "large-retro-rug",
+            "light-green-rug",
+            "modern-rug",
+            "monster-rug",
+            "mystic-rug",
+            "nautical-rug",
+            "oceanic-rug",
+            "old-world-rug",
+            "patchwork-rug",
+            "pirate-rug",
+            "red-cottage-rug",
+            "red-rug",
+            "retro-mat",
+            "retro-rug",
+            "retro-square-rug",
+            "rune-rug",
+            "sandy-rug",
+            "small-joja-rug",
+            "small-junimo-mat",
+            "snowy-rug",
+            "square-joja-rug",
+            "square-junimo-rug",
+            "starry-moon-rug",
+            "swirl-rug",
+            "woodcut-rug"
+          ]
+        },
+        {
+          "id": "lighting",
+          "name_zh": "灯具与壁炉",
+          "name_en": "Lights and fireplaces",
+          "ids": [
+            "box-lamp",
+            "brick-fireplace",
+            "candle-lamp",
+            "classic-lamp",
+            "country-lamp",
+            "desert-fireplace",
+            "elegant-fireplace",
+            "iridium-fireplace",
+            "j.-cola-light",
+            "j.-light",
+            "joja-fireplace",
+            "joja-lamp",
+            "jungle-torch",
+            "junimo-fireplace",
+            "junimo-lamp",
+            "l.-light-string",
+            "light-leafy-wall-panel",
+            "light-switch",
+            "modern-lamp",
+            "monster-fireplace",
+            "moonlight-jellies-banner",
+            "ornate-lamp",
+            "plain-torch",
+            "retro-fireplace",
+            "retro-lamp",
+            "stone-fireplace",
+            "stove-fireplace",
+            "stump-torch",
+            "wall-sconce",
+            "wizard-fireplace",
+            "wizard-lamp"
+          ]
+        },
+        {
+          "id": "walls",
+          "name_zh": "墙面、门窗与旗帜",
+          "name_en": "Wall decor, doors and windows",
+          "ids": [
+            "basic-window",
+            "boarded-window",
+            "carved-window",
+            "ceiling-flags",
+            "chicken-decal",
+            "cloud-decal",
+            "clouds-banner",
+            "cow-decal",
+            "dark-leafy-wall-panel",
+            "decorative-door-1",
+            "decorative-door-2",
+            "decorative-door-3",
+            "decorative-door-4",
+            "decorative-door-5",
+            "decorative-door-6",
+            "hanging-fish",
+            "decorative-joja-door",
+            "decorative-junimo-door",
+            "decorative-retro-door",
+            "decorative-wizard-door",
+            "desert-flags",
+            "grandfather-clock",
+            "icy-banner",
+            "jungle-decal",
+            "junimo-wall-plaque",
+            "leafy-wall-panel",
+            "log-panel",
+            "metal-window",
+            "night-sky-decal-#1",
+            "night-sky-decal-#2",
+            "night-sky-decal-#3",
+            "ornate-window",
+            "pastel-banner",
+            "pirate-flag",
+            "pyramid-decal",
+            "retro-banner",
+            "small-wall-pumpkin",
+            "small-window",
+            "starport-decal",
+            "strawberry-decal",
+            "triangle-window",
+            "wall-clock",
+            "wall-pumpkin",
+            "wall-sword",
+            "winter-banner",
+            "wood-panel"
+          ]
+        },
+        {
+          "id": "statues_toys",
+          "name_zh": "雕像、模型与玩偶",
+          "name_en": "Statues, models and toys",
+          "ids": [
+            "bear-statue",
+            "blue-sleeping-junimo",
+            "bobo-statue",
+            "calico-statue",
+            "chicken-statue",
+            "futan-bear",
+            "futan-rabbit",
+            "gourmand-statue",
+            "gray-sleeping-junimo",
+            "green-serpent-statue",
+            "green-sleeping-junimo",
+            "junimo-bag",
+            "junimo-bundle",
+            "junimo-catalogue",
+            "junimo-kart-arcade-system",
+            "junimo-plaque",
+            "junimo-plush",
+            "junimo-pot",
+            "junimo-star",
+            "large-junimo-hut",
+            "lg.-futan-bear",
+            "model-planes",
+            "model-ship",
+            "orange-sleeping-junimo",
+            "plush-bunny",
+            "purple-serpent-statue",
+            "purple-sleeping-junimo",
+            "red-sleeping-junimo",
+            "skeleton",
+            "sloth-skeleton-l",
+            "sloth-skeleton-m",
+            "sloth-skeleton-r",
+            "small-junimo-hut",
+            "small-junimo-plush",
+            "small-junimo-pot",
+            "squirrel-figurine",
+            "wumbus-statue",
+            "yellow-sleeping-junimo"
+          ]
+        },
+        {
+          "id": "electronics",
+          "name_zh": "电器与乐器",
+          "name_en": "Electronics and instruments",
+          "ids": [
+            "bongo",
+            "broken-television",
+            "budget-tv",
+            "dark-piano",
+            "floor-tv",
+            "plasma-tv",
+            "prairie-king-arcade-system",
+            "retro-radio",
+            "retro-tv",
+            "sam's-boombox",
+            "tropical-tv",
+            "upright-piano"
+          ]
+        },
+        {
+          "id": "aquariums",
+          "name_zh": "鱼缸",
+          "name_en": "Aquariums",
+          "ids": [
+            "aquatic-sanctuary",
+            "deluxe-fish-tank",
+            "jungle-tank",
+            "large-fish-tank",
+            "modern-fish-tank",
+            "small-fish-tank"
+          ]
+        },
+        {
+          "id": "books",
+          "name_zh": "书籍与目录",
+          "name_en": "Books and catalogues",
+          "ids": [
+            "blue-book",
+            "book-pile",
+            "book-stack",
+            "brown-book",
+            "catalogue",
+            "fallen-blue-book",
+            "fallen-brown-book",
+            "fallen-green-book",
+            "fallen-purple-book",
+            "fallen-red-book",
+            "fallen-yellow-book",
+            "furniture-catalogue",
+            "green-book",
+            "joja-furniture-catalogue",
+            "large-book-pile",
+            "large-book-stack",
+            "purple-book",
+            "red-book",
+            "retro-catalogue",
+            "small-book-pile",
+            "small-book-stack",
+            "trash-catalogue",
+            "wizard-catalogue",
+            "yellow-book"
+          ]
+        },
+        {
+          "id": "other_furniture",
+          "name_zh": "其他家具与摆件",
+          "name_en": "Other furniture and props",
+          "ids": [
+            "aluminum-can",
+            "amethyst-crystal-ball",
+            "anchor",
+            "aquamarine-crystal-ball",
+            "bird-house",
+            "blue-bottle",
+            "bulletin-board",
+            "buried-tire",
+            "butterfly-hutch",
+            "calendar",
+            "cash-register",
+            "cauldron",
+            "ceiling-leaves",
+            "ceramic-pillar",
+            "clothesline",
+            "coat-stand",
+            "colorful-set",
+            "crystal-ball",
+            "dark-doghouse",
+            "decorative-axe",
+            "decorative-barrel",
+            "decorative-bowl",
+            "decorative-hatch",
+            "decorative-lantern",
+            "decorative-oak-ladder",
+            "decorative-pitcher",
+            "decorative-pitchfork",
+            "decorative-shovel",
+            "decorative-sword",
+            "decorative-trash-can",
+            "decorative-walnut-ladder",
+            "doghouse",
+            "dusty-skull",
+            "elixir-bundle",
+            "emerald-crystal-ball",
+            "floor-divider-l",
+            "floor-divider-r",
+            "food-pet-bowl",
+            "globe",
+            "glyph",
+            "gold-pillar",
+            "green-bottle",
+            "hanging-shield",
+            "industrial-pipe",
+            "iridium-krobus",
+            "j",
+            "joja-cola-cans",
+            "joja-cola-ornament",
+            "joja-crate",
+            "joja-shopping-cart",
+            "joja-vault",
+            "large-joja-crate",
+            "leah's-sculpture",
+            "lifesaver",
+            "messy-shirt",
+            "messy-shorts",
+            "miner's-crest",
+            "monster-danglers",
+            "mounted-trout",
+            "outlet",
+            "pierre's-sign",
+            "plastic-bag",
+            "plastic-sapling",
+            "porthole",
+            "ruby-crystal-ball",
+            "sam's-skateboard",
+            "singing-stone",
+            "six-pack-rings",
+            "small-crystal",
+            "spilled-beverage",
+            "stacked-joja-boxes",
+            "standing-geode",
+            "stone-flooring",
+            "stone-slab",
+            "teddy-timer",
+            "tire",
+            "topaz-crystal-ball",
+            "totem-pole",
+            "tree-column",
+            "tree-of-the-winter-star",
+            "two-elixirs",
+            "water-pet-bowl",
+            "witch's-broom",
+            "wrapper",
+            "cat-tree",
+            "dark-cat-tree",
+            "wallflower-pal"
+          ]
+        }
+      ]
+    },
+    "crops": {
+      "name_zh": "作物示意",
+      "name_en": "Crop placeholders",
+      "atlas_order": 9,
+      "families": [
+        {
+          "id": "crop_placeholders",
+          "name_zh": "普通与巨型作物",
+          "name_en": "Regular and giant crops",
+          "ids": [
+            "strawberry-seeds",
+            "giant-pumpkin"
+          ]
+        }
+      ]
+    },
+    "ignored_entities": {
+      "name_zh": "动物与其他忽略项（仅供识别）",
+      "name_en": "Animals and other omitted entities",
+      "atlas_order": 10,
+      "families": [
+        {
+          "id": "cats",
+          "name_zh": "猫",
+          "name_en": "Cats",
+          "ids": [
+            "pet-cat-1",
+            "pet-cat-2",
+            "pet-cat-3",
+            "pet-cat-4",
+            "pet-cat-5"
+          ]
+        },
+        {
+          "id": "dogs",
+          "name_zh": "狗",
+          "name_en": "Dogs",
+          "ids": [
+            "pet-dog-1",
+            "pet-dog-2",
+            "pet-dog-3",
+            "pet-dog-4",
+            "pet-dog-5"
+          ]
+        },
+        {
+          "id": "turtles_horse",
+          "name_zh": "乌龟与马匹",
+          "name_en": "Turtles and horse",
+          "ids": [
+            "pet-turtle",
+            "pet-iridium-turtle",
+            "horse"
+          ]
+        },
+        {
+          "id": "farm_animals",
+          "name_zh": "农场动物",
+          "name_en": "Farm animals",
+          "ids": [
+            "animal-chicken",
+            "animal-duck",
+            "animal-dinosaur",
+            "animal-rabbit",
+            "animal-cow",
+            "animal-ostrich",
+            "animal-goat",
+            "animal-sheep",
+            "animal-pig"
+          ]
+        },
+        {
+          "id": "wildlife",
+          "name_zh": "野生动物",
+          "name_en": "Wildlife",
+          "ids": [
+            "wild-butterfly",
+            "wild-crow",
+            "wild-owl",
+            "wild-seagull"
+          ]
+        },
+        {
+          "id": "fairy_companions",
+          "name_zh": "仙女盒召唤物",
+          "name_en": "Fairy Box companions",
+          "ids": [
+            "fairy-companion-1"
+          ]
+        },
+        {
+          "id": "frog_companions",
+          "name_zh": "青蛙蛋召唤物",
+          "name_en": "Frog Egg companions",
+          "ids": [
+            "frog-companion-2"
+          ]
+        },
+        {
+          "id": "other_omissions",
+          "name_zh": "其他忽略项",
+          "name_en": "Other omitted entities",
+          "ids": [
+            "moving-slime",
+            "island-parrot-perch",
+            "truffle",
+            "torch",
+            "mailbox"
+          ]
+        },
+        {
+          "id": "children",
+          "name_zh": "孩子",
+          "name_en": "Children",
+          "ids": [
+            "toddler"
+          ]
+        }
+      ]
+    }
+  },
+  "workflow_order": [
+    "buildings",
+    "flooring_fences",
+    "tools",
+    "trees",
+    "ornamental_plants",
+    "decorations",
+    "artworks",
+    "furniture",
+    "crops",
+    "final"
+  ],
+  "override_ids": {
+    "furniture": [
+      "ancient-stool",
+      "ancient-table",
+      "bongo",
+      "bookcase",
+      "decorative-pitcher",
+      "fancy-table",
+      "grandfather-clock",
+      "junimo-kart-arcade-system",
+      "plush-bunny",
+      "prairie-king-arcade-system",
+      "teddy-timer"
+    ],
+    "trees": [
+      "dead-tree"
+    ],
+    "decorations": [
+      "barrel",
+      "barrel-brazier",
+      "basic-log",
+      "big-green-cane",
+      "big-red-cane",
+      "bonfire",
+      "boulder",
+      "camera",
+      "campfire",
+      "carved-brazier",
+      "crate",
+      "dark-sign",
+      "decorative-spears",
+      "empty-capsule",
+      "gold-brazier",
+      "grave-stone",
+      "green-canes",
+      "iron-lamp-post",
+      "item-pedestal",
+      "lawn-flamingo",
+      "log-section",
+      "marble-brazier",
+      "mixed-cane",
+      "obelisk",
+      "ornamental-hay-bale",
+      "red-canes",
+      "ritual-mask",
+      "sign-of-the-vessel",
+      "skeleton-model",
+      "skull-brazier",
+      "solid-gold-lewis",
+      "stardew-hero-trophy",
+      "stone-brazier",
+      "stone-cairn",
+      "stone-frog",
+      "stone-junimo",
+      "stone-owl",
+      "stone-parrot",
+      "stone-sign",
+      "strange-capsule",
+      "stump-brazier",
+      "suit-of-armor",
+      "tall-torch",
+      "text-sign",
+      "torch",
+      "wood-lamp-post",
+      "wood-sign",
+      "wooden-brazier",
+      "slime-ball"
+    ],
+    "artworks": [
+      "'1000-years-from-now'",
+      "'a-night-on-eco-hill'",
+      "'abstract'",
+      "'binary'",
+      "'blue-city'",
+      "'blueberries'",
+      "'boat'",
+      "'burnt-offering'",
+      "'checkers'",
+      "'clouds'",
+      "'community-center'",
+      "'dancing-grass'",
+      "'frozen-dreams'",
+      "'groovy'",
+      "'highway-89'",
+      "'hut'",
+      "'it-howls-in-the-rain'",
+      "'jade-hills'",
+      "'jade-hills-extended'",
+      "'journey-of-the-prairie-king:-the-motion-picture'",
+      "'kitemaster-'95'",
+      "'land-of-clay'",
+      "'little-buddies'",
+      "'little-tree'",
+      "'mysterium'",
+      "'natural-wonders:-exploring-our-vibrant-world'",
+      "'pathways'",
+      "'physics-101'",
+      "'portrait-of-a-mermaid'",
+      "'primal-motion'",
+      "'queen-of-the-gem-sea'",
+      "'red-eagle'",
+      "'runes'",
+      "'solar-kingdom'",
+      "'spires'",
+      "'squid-kid'",
+      "'stardrop'",
+      "'starship'",
+      "'sun-#44'",
+      "'sun-#45'",
+      "'the-brave-little-sapling'",
+      "'the-miracle-at-coldstar-ranch'",
+      "'the-muzzamaroo'",
+      "'the-serpent'",
+      "'the-zuzu-city-express'",
+      "'three-trees'",
+      "'tropical-fish-#173'",
+      "'ufo'",
+      "'vanilla-villa'",
+      "'vga-paradise'",
+      "'vista'",
+      "'void-swirls'",
+      "'volcano'-photo",
+      "'wizard's-tower'",
+      "'wumbus'",
+      "abigail-portrait",
+      "alex-portrait",
+      "art-photo",
+      "art-photo-2",
+      "calico-falls",
+      "elliott-portrait",
+      "emily-portrait",
+      "exotic-palace",
+      "foliage-print",
+      "haley-portrait",
+      "harvey-portrait",
+      "j.-painting",
+      "joja-cola-painting",
+      "joja-hq-painting",
+      "leah-portrait",
+      "little-photos",
+      "manager-of-the-year",
+      "maru-portrait",
+      "my-first-painting",
+      "penny-portrait",
+      "pig-painting",
+      "sam-portrait",
+      "sebastian-portrait",
+      "shane-portrait",
+      "skull-poster",
+      "sun-dunes",
+      "wizard-study",
+      "world-map",
+      "needlepoint-flower",
+      "periodic-table"
+    ],
+    "ornamental_plants": [
+      "bonsai-tree",
+      "corn-plant",
+      "curly-tree",
+      "deluxe-tree",
+      "dried-sunflowers",
+      "elegant-vase",
+      "exotic-tree",
+      "fancy-house-plant",
+      "house-plant",
+      "indoor-hanging-basket",
+      "indoor-palm",
+      "junimo-flower",
+      "junimo-plant",
+      "junimo-tree",
+      "long-cactus",
+      "long-palm",
+      "manicured-pine",
+      "obsidian-vase",
+      "palm-wall-ornament",
+      "plastic-plant",
+      "potted-red-mushroom",
+      "retro-flower",
+      "retro-plant",
+      "s.-pine",
+      "s.-wall-flower",
+      "small-plant",
+      "swamp-plant",
+      "table-plant",
+      "tall-house-plant",
+      "topiary-tree",
+      "wall-basket",
+      "wall-cactus",
+      "wall-flower",
+      "wall-palm",
+      "winter-tree-decal",
+      "seasonal-plant",
+      "seasonal-decor",
+      "tub-o'-flowers"
+    ],
+    "tools": [
+      "shipping-bin"
+    ]
+  },
+  "ignored_ids": [
+    "weeds"
+  ],
+  "ignored_subcategories": [
+    "grass"
+  ],
+  "notes": [
+    "All bundled placeable item families are indexed, including furniture and crops. Seasonal and connection variants share cards with every available appearance shown.",
+    "Moving characters and animals are ignored during reference recognition; static animal-shaped furniture, statues, toys and scarecrows remain eligible.",
+    "Placeable grass and weeds remain excluded from layouts.",
+    "Families retain their configured order across densely filled pages; aliases point to the exact displayed card.",
+    "Supplemental appearances are native-size local catalog items and preserve their exact style in plans and renders.",
+    "All seeds and regular crop IDs normalize to strawberry-seeds (1 x 1); all giant crops normalize to giant-pumpkin (3 x 3). Only these two crop cards are shown."
+  ],
+  "normalized_ids": {
+    "greenhouse": "greenhouse-repaired",
+    "rarecrow": "rarecrow-8",
+    "seasonal-plant": "seasonal-plant-6",
+    "seasonal-decor": "seasonal-decor-four-seasons",
+    "tub-o'-flowers": "tub-flowers-four-seasons",
+    "amaranth-seeds": "strawberry-seeds",
+    "ancient-seeds": "strawberry-seeds",
+    "artichoke-seeds": "strawberry-seeds",
+    "bean-starter": "strawberry-seeds",
+    "beet-seeds": "strawberry-seeds",
+    "blue-jazz": "strawberry-seeds",
+    "blueberry-seeds": "strawberry-seeds",
+    "bok-choy-seeds": "strawberry-seeds",
+    "broccoli-seeds": "strawberry-seeds",
+    "cactus-seeds": "strawberry-seeds",
+    "carrot-seeds": "strawberry-seeds",
+    "cauliflower-seeds": "strawberry-seeds",
+    "coffee-bean": "strawberry-seeds",
+    "corn-seeds": "strawberry-seeds",
+    "cranberry-seeds": "strawberry-seeds",
+    "crocus": "strawberry-seeds",
+    "eggplant-seeds": "strawberry-seeds",
+    "fairy-rose": "strawberry-seeds",
+    "fairy-seeds": "strawberry-seeds",
+    "fall-seeds": "strawberry-seeds",
+    "fiber-seeds": "strawberry-seeds",
+    "garlic-seeds": "strawberry-seeds",
+    "giant-cauliflower": "giant-pumpkin",
+    "giant-melon": "giant-pumpkin",
+    "grape-starter": "strawberry-seeds",
+    "hops-starter": "strawberry-seeds",
+    "jazz-seeds": "strawberry-seeds",
+    "kale-seeds": "strawberry-seeds",
+    "melon-seeds": "strawberry-seeds",
+    "parsnip-seeds": "strawberry-seeds",
+    "pepper-seeds": "strawberry-seeds",
+    "pineapple-seeds": "strawberry-seeds",
+    "poppy": "strawberry-seeds",
+    "poppy-seeds": "strawberry-seeds",
+    "potato-seeds": "strawberry-seeds",
+    "powdermelon-seeds": "strawberry-seeds",
+    "pumpkin-seeds": "strawberry-seeds",
+    "qi-bean": "strawberry-seeds",
+    "radish-seeds": "strawberry-seeds",
+    "rare-seed": "strawberry-seeds",
+    "red-cabbage-seeds": "strawberry-seeds",
+    "rhubarb-seeds": "strawberry-seeds",
+    "rice-shoot": "strawberry-seeds",
+    "spangle-seeds": "strawberry-seeds",
+    "spring-seeds": "strawberry-seeds",
+    "starfruit-seeds": "strawberry-seeds",
+    "summer-seeds": "strawberry-seeds",
+    "summer-spangle": "strawberry-seeds",
+    "summer-squash-seeds": "strawberry-seeds",
+    "sunflower-seeds": "strawberry-seeds",
+    "sweet-pea": "strawberry-seeds",
+    "taro-tuber": "strawberry-seeds",
+    "tea-bush": "strawberry-seeds",
+    "tomato-seeds": "strawberry-seeds",
+    "tulip": "strawberry-seeds",
+    "tulip-bulb": "strawberry-seeds",
+    "wheat-seeds": "strawberry-seeds",
+    "winter-seeds": "strawberry-seeds",
+    "yam-seeds": "strawberry-seeds",
+    "decorative-door": "decorative-door-6",
+    "giant-powdermelon": "giant-pumpkin",
+    "giant-qi-fruit": "giant-pumpkin",
+    "giant-qifruit": "giant-pumpkin"
+  },
+  "legend_series": {
+    "furniture": [
+      {
+        "id": "joja",
+        "prefixes": [
+          "joja-",
+          "gray-joja-",
+          "j.-"
+        ],
+        "contains": [
+          "-joja-"
+        ]
+      },
+      {
+        "id": "junimo",
+        "prefixes": [
+          "junimo-"
+        ],
+        "contains": [
+          "junimo"
+        ]
+      },
+      {
+        "id": "wizard",
+        "prefixes": [
+          "wizard-"
+        ],
+        "contains": [
+          "-wizard-"
+        ]
+      },
+      {
+        "id": "retro",
+        "prefixes": [
+          "retro-"
+        ],
+        "contains": [
+          "-retro-"
+        ]
+      },
+      {
+        "id": "birch",
+        "prefixes": [
+          "birch-"
+        ]
+      },
+      {
+        "id": "oak",
+        "prefixes": [
+          "oak-"
+        ]
+      },
+      {
+        "id": "walnut",
+        "prefixes": [
+          "walnut-"
+        ]
+      },
+      {
+        "id": "mahogany",
+        "prefixes": [
+          "mahogany-"
+        ]
+      },
+      {
+        "id": "winter",
+        "prefixes": [
+          "winter-"
+        ]
+      },
+      {
+        "id": "tropical",
+        "prefixes": [
+          "tropical-"
+        ]
+      }
+    ]
+  }
+}

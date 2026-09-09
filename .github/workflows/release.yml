@@ -1,0 +1,36 @@
+name: Release skill
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    uses: ./.github/workflows/check.yml
+
+  release:
+    needs: check
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.0.1
+        with:
+          version: "0.10.10"
+          python-version: "3.12"
+      - name: Validate version and build package
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          uv run --python 3.12 scripts/check_install.py --tag "$RELEASE_TAG"
+          uv run --python 3.12 scripts/package_skill.py
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: gh release create "$RELEASE_TAG" dist/*.zip --verify-tag --title "$RELEASE_TAG" --generate-notes

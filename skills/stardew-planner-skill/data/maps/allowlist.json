@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "game_mode": "vanilla",
+  "categories": [
+    "farm",
+    "interior",
+    "coop",
+    "barn",
+    "island"
+  ],
+  "map_ids": [
+    "regular",
+    "fishing",
+    "foraging",
+    "mining",
+    "combat",
+    "fourcorners",
+    "beach",
+    "ranching",
+    "farmhouse",
+    "farmhouse_upgraded_1",
+    "farmhouse_upgraded_2",
+    "farmhouse_upgraded_3",
+    "farmhouse_cellar",
+    "shed",
+    "shed-big",
+    "barn",
+    "barn-big",
+    "barn-deluxe",
+    "coop",
+    "coop-big",
+    "coop-deluxe",
+    "slime-hutch",
+    "greenhouse",
+    "farm-cave",
+    "island-farmhouse",
+    "ginger_island"
+  ]
+}

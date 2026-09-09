@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "giant_crop_locations": {
+      "url": "https://stardewvalleywiki.com/Crops#Giant_Crops",
+      "sha256": "cdbb6beb0d1ad33c77cb9f63d4b6fe2d2cb0cd1584686497e598952a8c2824aa",
+      "bytes": 680383,
+      "verified_at": "2026-09-08",
+      "rule": "Giant crop growth is unavailable in the greenhouse, garden pots, and Ginger Island."
+    }
+  },
+  "scope_constraints": {
+    "farm_buildings": "Exterior farm building layouts are accepted only on the eight supported farm maps."
+  }
+}

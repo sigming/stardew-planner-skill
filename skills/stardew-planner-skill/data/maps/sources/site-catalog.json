@@ -1,0 +1,47 @@
+{
+  "homepage_source": {
+    "url": "https://stardewplan.com/",
+    "sha256": "693d30fa405542f5b0c6ca505058cc54f2cdcf2ac08ffef4594565b5503a6b02",
+    "bytes": 3850,
+    "retrieved_at": "2026-09-08T11:18:35.924372+00:00"
+  },
+  "entry_source": {
+    "url": "https://stardewplan.com/_app/immutable/entry/app.CI2rUFl6.js",
+    "sha256": "7a4818078f7f9bd9738055792c28214ef17533017e832a3960786bd1451bac5e",
+    "bytes": 6688,
+    "retrieved_at": "2026-09-08T11:18:36.096940+00:00"
+  },
+  "catalog_source": {
+    "url": "https://stardewplan.com/_app/immutable/chunks/BKMU8frg.js",
+    "sha256": "ed96e58715e8ef8ad9cd92bdd7265c17046f84f9806970c2e04b4ee16a5a3d4a",
+    "bytes": 6111,
+    "retrieved_at": "2026-09-08T11:18:36.687753+00:00"
+  },
+  "verified_vanilla_map_files": [
+    "Barn.tmx",
+    "Barn2.tmx",
+    "Barn3.tmx",
+    "Cellar.tmx",
+    "Coop.tmx",
+    "Coop2.tmx",
+    "Coop3.tmx",
+    "Farm.tmx",
+    "FarmCave.tmx",
+    "FarmHouse.tmx",
+    "FarmHouse1.tmx",
+    "FarmHouse2.tmx",
+    "Farm_Combat.tmx",
+    "Farm_Fishing.tmx",
+    "Farm_Foraging.tmx",
+    "Farm_FourCorners.tmx",
+    "Farm_Island.tmx",
+    "Farm_Mining.tmx",
+    "Farm_Ranching.tmx",
+    "Greenhouse.tmx",
+    "IslandFarmHouse.tmx",
+    "Island_W.tmx",
+    "Shed.tmx",
+    "Shed2.tmx",
+    "SlimeHutch.tmx"
+  ]
+}

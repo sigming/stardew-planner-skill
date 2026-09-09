@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "item_count": 1557,
+  "image_count": 1557,
+  "missing_chinese_names": [],
+  "ambiguous_highlight_tiles": [],
+  "highlight_edges_verified_by_majority_alpha": {
+    "bee-house": 18,
+    "deluxe-scarecrow": 4
+  },
+  "alias_targets_valid": true,
+  "image_dimensions_valid": true,
+  "variant_targets_valid": true
+}
