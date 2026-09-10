@@ -2,13 +2,13 @@
 
 根据参考图片或文字需求，规划、复刻和调整《星露谷物语》原版布局，生成可编辑的配置、渲染图和实施简图，供玩家在游戏中照图布置。可在 Codex、Claude Code 等支持 Agent Skills 的助手中使用。
 
-欢迎阅读[我的博客](https://codming.com/posts/stardew-planner-skill/)，了解更多关于此 skill 的内容。
+欢迎阅读[我的博客](https://codming.com/posts/stardew-planner-skill/)了解更多关于此 skill 的内容。
 
 ## 使用 skill
 
 ### 安装与使用
 
-运行需要 **Python 3.12 和 uv**，安装需要 **Node.js 22+ 和 Git**：
+运行需要 **Python 3.12+ 和 uv**，安装需要 **Node.js 22+ 和 Git**：
 
 ```bash
 npx skills add sigming/stardew-planner-skill -a codex -a claude-code
@@ -48,7 +48,7 @@ stardew-layout/
 
 后续可将 `plan.json` 交给助手继续调整。规划过程的进度记录、参考图和 checkpoint 保存在方案工作目录中。
 
-## 开发
+## 脚本
 
 ```text
 uv run --python 3.12 skills/stardew-planner-skill/scripts/layout.py --help
